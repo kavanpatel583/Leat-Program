@@ -1,0 +1,4 @@
+1- why we have to create two scanner object for taking different inputs
+for ex in for loop if we take input as string and outer for loop if we take int input from same object then it skip one time 
+leat code program Longest common prefix
+2-

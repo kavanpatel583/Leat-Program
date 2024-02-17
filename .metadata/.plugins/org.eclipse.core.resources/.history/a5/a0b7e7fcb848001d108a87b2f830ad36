@@ -1,0 +1,38 @@
+package LeatEasyProblem;
+
+import java.util.Scanner;
+
+public class LongestCommonPrefix14 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("how many string do you want to enter");
+		int num = sc.nextInt();
+		String[] array = new String[num];
+		System.out.println(array.length);
+		int i;
+		for(i=0;i < 3; i++)
+		{
+			array[i] = sc.nextLine();
+			System.out.println(i);
+		}
+		solLongestCommonPrefix14 solLongestCommonPrefix14 = new solLongestCommonPrefix14();
+		String output = solLongestCommonPrefix14.longestCommonPrefix(array);
+	}
+
+}
+
+class solLongestCommonPrefix14
+{
+	  public String longestCommonPrefix(String[] strs) {
+		
+			for(int i=0;i<strs.length ; i++)
+			{
+				System.out.println(strs[i]);
+			}
+		  return null;
+	        
+	    }
+	
+}
